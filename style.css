@@ -1,0 +1,146 @@
+#header{
+    color: white;
+    background-color: #F17A65;
+}
+#menu{
+    list-style: none;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+#menu li{
+    display:inline-block;
+}
+#menu li a{
+    padding: 12px 10px;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+#menu li a:hover{
+    background-color: tomato;
+}
+#banner{
+    background: url(./images/logo.jpg);
+    height: 400px;
+    mask-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.title{
+    background: rgb(255, 255, 255);
+    /* padding-top: 10px; */
+    margin-top: 30px;
+    color: black;
+}
+.leead{
+    background-color: #F17A65;
+    color: white;
+}
+.section-heading{
+    text-align: center;
+}
+.break-line{
+    width: 40%;
+    color: red;
+}
+.service-box{
+    text-align: center;
+}
+.service-box .fa{
+    font-size: 70px;
+    color: #F17A65;
+}
+h3{
+    font-size: 30px;
+}
+.section-heading:after{
+    background: #F17A65;
+    content: "";
+    width: 100px;
+    height: 5px;
+    display: block;
+    margin: 20px auto;
+}
+.section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#testimonial{
+    color: white;
+    background: url(./images/mobile.jpg);  
+    mask-repeat: no-repeat;
+    background-size: cover;  
+}
+.image{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.news-images{
+    width: 250px;
+    height: 200px;
+}
+.news-heading a{
+    color: tomato;
+    font-size: 25px;
+    text-decoration: none;
+}
+.fa{
+    font-size: 15px;
+    color: black;
+}
+.button a{
+    
+    text-decoration: none;
+    color: tomato;
+}
+#main-footer{
+    background: rgb(13, 16, 49);
+    color: white;
+    padding: 20px 0px;
+}
+.footer-widght h4::after{
+    content: "";
+    width: 50px;
+    height: 3px;
+    display: block;
+    background: white;
+    margin: 15px 0px;
+}
+.list-style{
+    padding: 0px;
+    margin: 0px;
+ }
+
+.list-style li{
+    text-decoration: none;
+    list-style: none;   
+    /* color: white; */
+}
+.list-style li a{
+    color: white;
+    text-decoration: none;
+}
+#last-footer{
+    padding: 10px 0;
+    background: rgb(0, 0, 0);
+    color: white;
+}
+#social-icons{
+    padding: 0;
+    margin: 0;
+}
+#social-icons li {
+    list-style: none;
+    display: inline-block;
+}
+#social-icons li a{
+    text-decoration: none;
+    color: white;
+}
+.fa{
+
+    padding-left: 15px;
+}
+
